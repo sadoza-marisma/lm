@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE poligono [
+    <!ELEMENT poligono ((coordX,coordY)+ | nombre)>
+    <!ELEMENT coordX (#PCDATA)>
+    <!ELEMENT coordY (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+]>
+<poligono>
+    <nombre>hexagono</nombre>
+    <coordX>17</coordX>
+    <coordY>23</coordY>
+    <coordX>34</coordX>
+    <coordY>56</coordY>
+</poligono>

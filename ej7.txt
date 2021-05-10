@@ -1,0 +1,32 @@
+factura
+    - numero
+    - fecha
+    - pedido
+    - forma de pago
+    - sujeto fiscal
+        - nombre
+        - direccion
+        - localidad
+        - CP
+        - provincia
+        - CIF
+        - telefono
+        - fax
+    - cliente
+        - numero_cliente
+        - nombre_cliente
+        - direccion
+        - localidad
+        - CP
+        - provincia
+    - detalle_factura
+        - linea_detalle (+)
+            - ref
+            - descripcion
+            - cant
+            - precio
+            - tipo_iva
+            - importe
+        - base_imponible
+        - tipo_iva
+        - importe
